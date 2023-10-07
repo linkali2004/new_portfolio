@@ -2,7 +2,7 @@ import { Box, Typography, Button } from "@mui/material";
 
 export default function Contact() {
   return (
-    <Box className = "wow fadeIn" sx = {{width:"100%" , backgroundColor:"#2b2f4b" , position:"relative" , zIndex:1 , paddingBottom:"20px" , boxShadow:"rgba(0,0,0,0.35)"}}>
+    <Box className = "wow fadeIn data-wow-delay = 4s" sx = {{width:"100%" , backgroundColor:"#2b2f4b" , position:"relative" , zIndex:1 , paddingBottom:"20px" , boxShadow:"rgba(0,0,0,0.35)"}}>
         <Box sx = {{display:"flex" , justifyContent:"space-between" , padding:"40px"}}>
         <Typography variant = "h4" sx={{color:"white" , fontSize:{xs:'26px'} , fontFamily:"Ubuntu"}}>CONTACT</Typography>
         </Box>
