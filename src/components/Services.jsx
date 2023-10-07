@@ -2,7 +2,7 @@ import { Box, Typography , Button, Stack, Card, CardMedia, CardContent, CardActi
 
 export default function Services() {
   return (
-    <Box className = "wow fadeIn data-wow-delay = 4s" sx = {{width:"100%" , backgroundColor:"#2b2f4b" , position:"relative" , zIndex:1 , paddingBottom:"20px"}}>
+    <Box className = "wow fadeIn data-wow-delay = 8s" sx = {{width:"100%" , backgroundColor:"#2b2f4b" , position:"relative" , zIndex:1 , paddingBottom:"20px"}}>
         <Box sx = {{display:"flex" , justifyContent:"space-between" , padding:"40px"}}>
         <Typography variant = "h4" sx={{color:"white" , fontSize:{xs:'26px'} , fontFamily:"Ubuntu"}}>SERVICES</Typography>
         <Button variant = "contained" size = "small" sx={{color:"#fff" , fontFamily:"Ubuntu",borderRadius:"6px" , paddingLeft:"25px",paddingRight:"25px",background:"#2b2f4b",boxShadow:"0px 5px 15px rgba(0,0,0,0.35)"}}>Know More</Button>
